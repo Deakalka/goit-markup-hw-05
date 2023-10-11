@@ -491,59 +491,50 @@ img {
 
 
 .btn-footer{
-    display: inline-flex;
-    transform: translatey(50%);
-    padding: 8px 24px;
+    min-width: 165px;
+    height: 40px;
+    display: flex; 
     justify-content: center;
     align-items: center;
-    gap: 16px;
-    border-radius: 4px;
-    background: var(--IRIS, #4D5AE5);
-    border: 0px;
-
-    color: var(--WHITE, #FFF);
-    text-align: center;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.64px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
 }
 .space-footer{
     width: 264px;
     height: 40px;
-    flex-shrink: 0;
-    margin-top: 16px;
-    padding: 8px 16px;
-    background: var(--NAVY-BLUE, #2E2F42);
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px; 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    border: 1px solid var(--WHITE, #FFF);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    margin-right: 24px;
-
+    color: #ffffff;
 
 }
 .space-footer::placeholder{
-    color: var(--WHITE, #FFF);
-    font-family: Roboto;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 200% */
-    letter-spacing: 0.48px;
+    color: #ffffff;
 }
 .title-space{
-    display: flex;
-    flex-direction: column;
-    color: var(--WHITE, #FFF);
-    /* Body Medium */
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
+    /* display: flex;
+    flex-direction: column; */
+
+    margin-bottom: 16px;
     font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    
 }
 .footer-third-sec{
     margin-left: 80px;
@@ -552,11 +543,14 @@ img {
     align-items: center;
     gap: 24px;
 }
-
+.footer-form{
+    display: flex;
+    gap: 24px;
+}
 .btn-icon {
-    color: #FFF;
-fill: #FFF;
-  }
+    margin-left: 16px;
+
+}
 
 
 /* ======================== */
