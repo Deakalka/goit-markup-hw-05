@@ -678,10 +678,6 @@ img {
 .modal-input:hover + .modal-icon, .modal-input:focus + .modal-icon {
     fill: #4D5AE5;
 }
-.modal-first-input .modal-input  .modal-icon{
-    border: 1px solid var(--IRIS, #4D5AE5);
-    fill: #4D5AE5;
-}
 
 .input-wrap{
     position: relative;
@@ -779,6 +775,7 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .chech-text-icon{
 }
